@@ -1,0 +1,71 @@
+
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    width:80%;
+    max-width:800px;
+    border-radius:0.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.card-body{
+    padding:20px;
+    line-height: 2rem;
+}
+
+cite{
+    font-weight:bolder;
+    margin-left: 50%;
+   
+    
+}
+
+.quote-icon{
+    color:#22333b;
+    font-size: 40px;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:0.5rem;
+}
+
+.card-footer ul{
+    display: flex;
+}
+
+.card-footer ul li{
+    list-style: none;
+    margin:0 5px;
+    border: 2px solid #22333b;
+    border-radius: 50%;
+    height:45px;
+    width:45px;
+    color:#22333b;
+    display:flex;
+    /* align-items: center; */
+    /* justify-self: center; */
+
+}
+
+.card-footer ul button{
+    background-color: transparent;
+    border:none;
+    color:#22333b;
+}
+.card-footer i{
+    font-size:x-large;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+    
+
